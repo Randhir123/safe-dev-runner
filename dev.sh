@@ -43,7 +43,6 @@ add_mount() {
 }
 
 add_mount "$HOME/.codex" /home/vscode/.codex
-add_mount "$HOME/code/scripts/agents" /home/sanand/code/scripts/agents
 add_mount "$HOME/.config/gh" /home/vscode/.config/gh
 add_mount "$HOME/.cache/pip" /home/vscode/.cache/pip
 add_mount "$HOME/.cache/uv" /home/vscode/.cache/uv
